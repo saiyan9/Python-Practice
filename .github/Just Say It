@@ -1,0 +1,7 @@
+commands = ["Lights Off", "Lock the door", Open the door", "Make coffee", "Shut Down"]
+x = str (input())
+if x in commands:
+	print ("OK")
+else:
+	x not in commands:
+	print ("Not supported")
